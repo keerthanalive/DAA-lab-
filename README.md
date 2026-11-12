@@ -4,31 +4,26 @@ A collection of C++ implementations for classic algorithmic problems organized b
 
 ## Repository structure
 
-- `backtracking/` — N-Queens implementations
-- `divide_and_conquer/` — Integer multiplication implementations
-- `dynamic_programming/` — 0/1 Knapsack, LCS, and Sequence Alignment implementations
-- `graphs/` — Graph traversal, shortest path, and MST algorithms
-- `greedy/` — Fractional Knapsack and Huffman Coding implementations
-- `sorting/` — Heap Sort, Insertion Sort, Merge Sort, and Quick Sort implementations
-- `trees/` — Binary tree and traversal implementations
+- `backtracking/` — N-Queens implementation
+- `divide_and_conquer/` — Integer multiplication implementation
+- `dynamic_programming/` — 0/1 Knapsack, Longest Common Subsequence, and Sequence Alignment
+- `graphs/` — Graph traversal, shortest path, and minimum spanning tree algorithms
+- `greedy/` — Fractional Knapsack and Huffman Coding
+- `sorting/` — Heap Sort, Insertion Sort, Merge Sort, and Quick Sort
+- `trees/` — Binary tree, binary search tree, and traversal implementations
 
 ## Included examples
 
 ### Backtracking
-- `backtracking/NQueens.cpp`
 - `backtracking/Nqueens.cpp`
 
 ### Divide and Conquer
 - `divide_and_conquer/IntegerMultiplication.cpp`
-- `divide_and_conquer/integermultiplication.cpp`
 
 ### Dynamic Programming
 - `dynamic_programming/Knapsack01.cpp`
-- `dynamic_programming/knapsack.cpp`
-- `dynamic_programming/LCS.cpp`
 - `dynamic_programming/LongestCommonSubsequence.cpp`
 - `dynamic_programming/SequenceAlignment.cpp`
-- `dynamic_programming/sequencealigment.cpp`
 
 ### Greedy
 - `greedy/fractionalknapsack.cpp`
@@ -79,4 +74,3 @@ g++ -std=c++17 -Wall -Wextra -o merge sorting/MergeSort.cpp
 ## Notes
 
 - Some programs expect user input while running.
-- The repository includes multiple versions of the same algorithm with different filename casing for lab practice and experimentation.
